@@ -22,9 +22,13 @@ Navigate to `~/Library/Application Support/Brackets/extensions/user/jrowny.brack
 
 ## Usages
 
+##### Forms
     l:form:route 
         {{ Form::open(array('route' => '...')) }}
         {{ Form::close() }}
+ 
+    l:form:text
+    	{{ Form::text('', Input::old(''), array('placeholder' => '')) }}
         
         
 ## Notes

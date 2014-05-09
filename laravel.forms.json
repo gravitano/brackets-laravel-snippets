@@ -1,9 +1,18 @@
 [
-    {
-        "name": "Laravel: Form( route )",
-        "trigger": "l:form:route",
-        "usage": "l:form:route",
-        "description": "Form to a Named Route",
-        "template": "laravel/forms/form.open.route.snippet"
-    }
+  {
+    "name": "Laravel: Form( route )",
+    "trigger": "l:form:route",
+    "usage": "l:form:route",
+    "description": "Form to a Named Route",
+    "template": "laravel/forms/form.open.route.snippet"
+  },
+
+
+  {
+    "name": "Laravel: Form::text()",
+    "trigger": "l:form:text",
+    "usage": "l:form:text",
+    "description": "<input type='text'>",
+    "template": "laravel/forms/form.input.text.snippet"
+  }
 ]
