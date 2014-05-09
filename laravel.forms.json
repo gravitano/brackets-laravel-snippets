@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Laravel: Form( route )",
+        "trigger": "l:form:route",
+        "usage": "l:form:route",
+        "description": "Form to a Named Route",
+        "template": "laravel/forms/form.open.route.snippet"
+    }
+]
