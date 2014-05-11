@@ -6,13 +6,39 @@
     "description": "Form to a Named Route",
     "template": "laravel/forms/form.open.route.snippet"
   },
-
-
+  {
+    "name": "Laravel: Form::label()",
+    "trigger": "l:form:label",
+    "usage": "l:form:label",
+    "description": "<label for=''></label>",
+    "template": "laravel/forms/form.label.snippet"
+  },
   {
     "name": "Laravel: Form::text()",
     "trigger": "l:form:text",
     "usage": "l:form:text",
     "description": "<input type='text'>",
     "template": "laravel/forms/form.input.text.snippet"
+  },
+  {
+    "name": "Laravel: Form::password()",
+    "trigger": "l:form:pass",
+    "usage": "l:form:pass",
+    "description": "<input type='password'>",
+    "template": "laravel/forms/form.input.password.snippet"
+  },
+  {
+    "name": "Laravel: Form::email()",
+    "trigger": "l:form:email",
+    "usage": "l:form:email",
+    "description": "<input type='email'>",
+    "template": "laravel/forms/form.input.email.snippet"
+  },
+  {
+    "name": "Laravel: Form::submit()",
+    "trigger": "l:form:submit",
+    "usage": "l:form:submit",
+    "description": "<input type='submit'>",
+    "template": "laravel/forms/form.input.submit.snippet"
   }
 ]
